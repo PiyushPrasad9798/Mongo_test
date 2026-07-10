@@ -13,6 +13,7 @@ set_bg()
 conn = pymongo.MongoClient(
     "mongodb+srv://PiyushPdMongo:Piyush9798@mongotest.norvsxv.mongodb.net/?retryWrites=true&w=majority&appName=MongoTest"
 )
+mydb = conn["ojt"]
 my = mydb["user_info"]
 
 # ---------------- Session State ---------------- #
