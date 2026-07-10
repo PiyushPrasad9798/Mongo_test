@@ -96,7 +96,7 @@ if signin:
 
             time.sleep(0.8)
 
-            st.switch_page("pages/Welcome.py")
+            #st.switch_page("pages/Welcome.py")
 
         else:
 
