@@ -10,7 +10,7 @@ set_bg()
 
 # ---------------- MongoDB ---------------- #
 
-conn = pymongo.MongoClient("mongodb+srv://PiyushPdMongo:Piyush@123@mongotest.norvsxv.mongodb.net/?appName=MongoTest")
+conn = pymongo.MongoClient("mongodb+srv://PiyushPdMongo:Piyush9798@mongotest.norvsxv.mongodb.net/?appName=MongoTest")
 mydb = conn["ojt"]
 my = mydb["user_info"]
 
