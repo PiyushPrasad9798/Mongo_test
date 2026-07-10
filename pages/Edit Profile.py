@@ -6,7 +6,9 @@ from background import set_bg
 set_bg()
 
 # ---------------- MongoDB Connection ----------------
-conn = pymongo.MongoClient("mongodb+srv://PiyushPdMongo:Piyush9798@mongotest.norvsxv.mongodb.net/?appName=MongoTest")
+conn = pymongo.MongoClient(
+    "mongodb+srv://PiyushPdMongo:Piyush9798@mongotest.norvsxv.mongodb.net/?retryWrites=true&w=majority&appName=MongoTest"
+)
 mydb = conn["ojt"]
 my = mydb["user_info"]
 
