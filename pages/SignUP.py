@@ -46,7 +46,7 @@ with col2:
     email = st.text_input("📧 Email Address")
 
 # dob = st.date_input("🎂 Date of Birth")
-dob=st.date_input("🎂 Date of Birth",value=date.today(),min_value=date(1900,1,1),max_value=date.today)
+dob=st.date_input("🎂 Date of Birth",value=date.today(),min_value=date(1900,1,1),max_value=date.today())
 
 st.write("")
 
