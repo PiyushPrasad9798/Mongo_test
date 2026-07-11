@@ -1,7 +1,8 @@
 import streamlit as st
 import time
 import pymongo
-import date
+
+from datetime import date
 
 from background import set_bg
 
