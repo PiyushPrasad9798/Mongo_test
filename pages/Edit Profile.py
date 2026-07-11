@@ -42,8 +42,12 @@ st.text_input("👤 Username",value=user["uname"],disabled=True)
 new_password = st.text_input("🔑 Password",value=user["password"],type="password")
 new_mobile = st.text_input("📱 Mobile",value=user["mobile"])
 new_email = st.text_input("📧 Email",value=user["email"])
-new_dob = st.date_input("🎂 DOB", value=user["dob"], value=date.today(),min_value=date(1900,1,1),max_value=date.today())
-# dob=st.date_input("🎂 Date of Birth",value=date.today(),min_value=date(1900,1,1),max_value=date.today())
+new_dob = st.date_input(
+    "🎂 DOB",
+    value=user["dob"],
+    min_value=date(1900, 1, 1),
+    max_value=date.today()
+)
 # ---------------- Save ----------------
 if st.button("💾 Save Changes", use_container_width=True):
 
